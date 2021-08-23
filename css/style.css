@@ -1,0 +1,715 @@
+@charset "utf-8";
+body {
+	background-color: #fff8f0;
+}
+
+#wrap {
+	overflow: hidden;
+	display: block;
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #fff8f0;
+}
+
+/* header */
+header {
+	position: relative;
+}
+
+header > h1 {
+	background-color: #fff;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+header > h2 {
+	position: absolute;
+
+	top: 35px;
+	left: 167px;
+	display: block;
+	font-weight: 800;
+	color: #ee8228;
+	font-family: '견돋움';
+	font-size: 24px;
+}
+
+header > h2 > a > span {
+	color: #4273c2;
+}
+header > p.logo {
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	width: 150px;
+}
+header > p.logo > a {
+	display: block;
+	height: 60px;
+	background-image: url(./../images/강릉시\ 가로.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+header > .nav {
+	position: absolute;
+	top: 40px;
+	right: 220px;
+	display: flex;
+	width: 480px;
+	font-family: '고딕';
+
+	text-align: center;
+	justify-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+header > .nav > ul > li {
+	width: 130px;
+	border: 1px solid #000;
+	border-right: 0px solid #000;
+	border-left: 0px solid #000;
+	box-sizing: border-box;
+}
+
+header > .nav > ul > li {
+	border-left: 0px solid #000;
+}
+header > .nav > ul > li:nth-of-type(1) {
+	border-right: 1px solid #000;
+}
+
+header > .nav > ul > li > ol > li {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+header > .nav > ul > li > ol > li:last-child {
+}
+
+header > .nav > .one > li {
+	border-left: 1px solid #000;
+}
+header > .nav > .one > li > ol > li {
+	width: 130px;
+	border-right: 1px solid #000;
+}
+header > .nav > ul > li:hover {
+	background-color: #dedede;
+}
+
+header > .nav > ul > li > a {
+	display: block;
+
+	font-size: 15px;
+	font-weight: 800;
+	margin: 5px;
+}
+
+header > .nav > ul > li:hover > ol {
+	display: block;
+	border-top: 1px solid black;
+	box-sizing: border-box;
+}
+
+header > .nav ol {
+	position: absolute;
+	width: 131px;
+
+	margin-left: -1px;
+	display: none;
+}
+header > .nav ol > li > a {
+	display: block;
+	font-size: 15px;
+	line-height: 2;
+	height: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+}
+header > .nav > .one > .two > li {
+	display: block;
+	width: 12px;
+}
+
+#wrap > header > .nav  .one > li > ol > li {
+	width: 128px;
+}
+header > .nav ol > li > a:hover {
+	background-color: #dedede;
+}
+
+/* section */
+
+/* menu */
+
+section > .menu {
+	position: fixed;
+	width: 1600px;
+	top: 50%;
+
+	margin-top: -230px;
+	text-align: center;
+	z-index: 1000;
+}
+
+section > .menu > p {
+	display: block;
+	width: 130px;
+	height: calc(10px * 6);
+	text-indent: -10px;
+	line-height: 60px;
+
+	background-color: #ededed;
+	opacity: 0.7;
+}
+section > .menu > p:hover {
+	opacity: 1;
+}
+section > .menu > p > a {
+	display: block;
+	text-align: center;
+
+	width: 140px;
+	height: 80px;
+}
+
+/* main1 */
+article {
+	width: 100%;
+}
+
+section > .main1 {
+}
+
+.main1 .visual-container {
+	position: relative;
+	display: flex;
+	width: calc(1600px * 5);
+}
+.main1 .visual-container > li {
+	cursor: pointer;
+	display: block;
+	width: 1600px;
+}
+.main1 .visual-container > li > a {
+	display: block;
+	width: 1600px;
+}
+
+.main1 .visual-container > li > a > h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 800;
+	font-family: '구름고딕';
+	margin-top: 160px;
+	margin-left: 10px;
+	margin-bottom: 150px;
+}
+.main1 .visual-container > li > a > h2 > span {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 800;
+	font-family: '구름고딕';
+}
+
+.main1 .visual-container > li > a > .box {
+	margin-top: -400px;
+	margin-left: 350px;
+	width: 900px;
+	height: 300px;
+	border: 4px solid #fff;
+	border-radius: 40px;
+}
+.main1 .visual-container > li:nth-child(1) {
+	display: block;
+	width: 1600px;
+	height: 600px;
+	background-image: url(./../images/배경3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-position: 50% 50%;
+}
+.main1 .visual-container > li:nth-child(2) {
+	display: block;
+	width: 1600px;
+	height: 600px;
+	background-image: url(./../images/배경2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+}
+.main1 .visual-container > li:nth-child(3) {
+	display: block;
+	width: 1600px;
+	height: 600px;
+	background-image: url(./../images/배경1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-indent: -9999px;
+}
+.main1 .visual-container > li:nth-child(4) {
+	display: block;
+	width: 1600px;
+	height: 600px;
+	background-image: url(./../images/배경4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-indent: -9999px;
+}
+.main1 .visual-container > li:nth-child(5) {
+	display: block;
+	width: 1600px;
+	height: 600px;
+	background-image: url(./../images/배경5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-indent: -9999px;
+}
+
+.main1 .visual-pagination {
+	position: absolute;
+	top: 560px;
+	margin-left: 710px;
+	display: flex;
+	justify-content: space-between;
+	width: calc(15px * 5 + 100px);
+}
+.main1 .visual-pagination > li {
+	display: block;
+	width: 15px;
+	height: 15px;
+
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.main1 .visual-pagination > li.on,
+.main1 .visual-pagination > li:hover {
+	background-color: #49ba2a;
+}
+
+.main1 .visual-pagination > li > a {
+	display: block;
+	text-indent: -9999px;
+	height: 100%;
+}
+
+/* 	article2 서핑 */
+
+section > .surfing {
+	position: relative;
+	width: 1600px;
+	height: 600px;
+}
+section .surfing > h2 {
+	position: absolute;
+	text-indent: -9999px;
+}
+
+section .surfing > .surfingBgi > a > span {
+	font-size: 22px;
+	color: yellow;
+
+	border-bottom: 2px solid yellow;
+}
+section .surfing > .surfingBgi > a {
+	position: absolute;
+
+	left: 800px;
+	margin-left: -230px;
+	top: 100px;
+	color: #fff;
+	text-align: center;
+
+	margin-bottom: 150px;
+	font-family: '견고딕';
+	font-weight: 800;
+	font-size: 26px;
+}
+
+section .surfing > p.surfingBgi {
+	position: absolute;
+	display: block;
+	margin-top: -21px;
+	width: 1600px;
+	height: 600px;
+
+	background-image: url(./../images/바닷가.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+section .surfing > div.icon > p.icon {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	left: 800px;
+	margin-left: -104px;
+	top: 240px;
+	width: 208px;
+	height: 208px;
+	border-radius: 100px;
+	background-size: cover;
+	z-index: 1000;
+
+	background-image: url(./../images/./서핑\ 작은이미지.jpg);
+}
+section .surfing > div.icon > p.icon:hover {
+	border: 8px solid rgb(209, 209, 209);
+	box-sizing: border-box;
+}
+section .surfing > div.icon > .homeP > a {
+	position: absolute;
+	left: 800px;
+	margin-left: -42px;
+	top: 470px;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: '견고딕';
+}
+
+section .surfing > div.icon:hover > p.icon {
+	border: 8px solid rgb(209, 209, 209);
+	box-sizing: border-box;
+}
+section .surfing > div.icon:hover > .homeP > a {
+	text-decoration: underline;
+}
+
+/* .tourism */
+.tourism {
+	position: relative;
+	display: block;
+	width: 1600px;
+	margin: 0 auto;
+
+	background-color: #fff8f0;
+}
+.tourism > h2 {
+	font-size: 26px;
+	text-align: center;
+	padding-top: 50px;
+	height: 280px;
+	font-weight: 800;
+	font-family: '구름고딕';
+}
+.tourism > h2 > span {
+	color: #49ba2a;
+}
+.tourism > ul {
+	position: absolute;
+	top: -1330px;
+	z-index: 1000;
+
+	display: flex;
+	width: calc(400px * 3 + 90px);
+
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.tourism > ul > li {
+	display: block;
+	width: 400px;
+
+	border: 1px solid #fff8f0;
+}
+.tourism > ul > li > a {
+	display: block;
+	height: 350px;
+	line-height: 656px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	opacity: 0.7;
+}
+.tourism > ul > li > a:hover {
+	opacity: 1;
+}
+
+.tourism > ul > li > a > span {
+	padding: 8px;
+	padding-right: 130px;
+	padding-left: 129.5px;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	background-color: #000;
+}
+
+.tourism > ul > li:nth-child(1) {
+	position: absolute;
+	top: 1500px;
+	display: block;
+	left: 810px;
+	margin-left: -665px;
+
+	background-image: url(./../images/코스1.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tourism > ul > li:nth-child(2) {
+	position: absolute;
+	top: 1500px;
+	left: 633px;
+
+	margin-left: -15px;
+	display: block;
+	background-image: url(./../images/관광코스_2.jpg);
+	background-position: 50% -20%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.tourism > ul > li:nth-child(3) {
+	position: absolute;
+	top: 1500px;
+	display: block;
+	left: 800px;
+	margin-left: 290px;
+	background-image: url(./../images/관광코스_3.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tourism > p {
+	display: block;
+	width: 1600px;
+	margin: 0 auto;
+	height: 250px;
+	background-color: #a7ec93;
+}
+
+/* majorTourism */
+section > .majorTourism {
+	display: block;
+	width: 1600px;
+	margin: 0 auto;
+}
+.majorTourism > h2 {
+	display: block;
+	font-size: 26px;
+	text-align: center;
+
+	margin: 40px;
+	margin-top: 60px;
+	font-weight: 800;
+	font-family: '구름고딕';
+}
+.majorTourism > h2 > span {
+	margin: 0 auto;
+	color: #49ba2a;
+}
+.majorTourism > ul {
+	display: flex;
+
+	flex-wrap: wrap;
+	width: calc(300px * 3 + 60px);
+	margin: 0 auto;
+	text-align: center;
+}
+.majorTourism > ul > li {
+	display: block;
+	width: 300px;
+	margin: 10px;
+}
+.majorTourism > ul > li > a {
+	display: block;
+	height: 350px;
+	line-height: 561px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	opacity: 0.7;
+}
+.majorTourism > ul > li > a:hover {
+	opacity: 1;
+}
+
+.majorTourism > ul > li > a > span {
+	font-size: 18px;
+
+	padding: 5px;
+	padding-right: 75px;
+	padding-left: 75px;
+	border: 2px solid #000;
+	background-color: #000;
+}
+
+.majorTourism > ul > li:nth-child(1) {
+	display: block;
+	height: 300px;
+	z-index: 1000;
+	background-image: url(./../images/자주찾는여행지_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > ul > li:nth-child(2) {
+	display: block;
+	height: 300px;
+	z-index: 1000;
+	background-image: url(./../images/자주찾는여행지_2.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > ul > li:nth-child(3) {
+	display: block;
+	height: 300px;
+	z-index: 1000;
+	background-image: url(./../images/자주찾는여행지_3.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > ul > li:nth-child(4) {
+	display: block;
+	height: 300px;
+	background-image: url(./../images/자주찾는여행지_4.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > ul > li:nth-child(5) {
+	display: block;
+	height: 300px;
+	background-image: url(./../images/자주찾는여행지_5.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > ul > li:nth-child(6) {
+	display: block;
+	height: 300px;
+	background-image: url(./../images/자주찾는여행지_6.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.majorTourism > .maJorIcon {
+	display: flex;
+	justify-content: space-between;
+	width: 1050px;
+	margin: 50px auto;
+}
+.majorTourism > .maJorIcon > li {
+	text-indent: -9999px;
+	width: 100px;
+	cursor: pointer;
+}
+.majorTourism > .maJorIcon > li:nth-child(2) {
+	width: 150px;
+}
+.majorTourism > .maJorIcon > li:nth-child(4) {
+	width: 150px;
+}
+.majorTourism > .maJorIcon > li > a {
+	height: 50px;
+}
+
+.majorTourism > .maJorIcon > li:nth-child(1) {
+	display: block;
+	height: 100px;
+	background-image: url(./../images/icon_01.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.majorTourism > .maJorIcon > li:nth-child(2) {
+	display: block;
+	height: 100px;
+	background-image: url(./../images/icon_2.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.majorTourism > .maJorIcon > li:nth-child(3) {
+	display: block;
+	height: 100px;
+	background-image: url(./../images/icon_3.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.majorTourism > .maJorIcon > li:nth-child(4) {
+	display: block;
+	height: 100px;
+	background-image: url(./../images/icon_4.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.majorTourism > .maJorIcon > li:nth-child(5) {
+	display: block;
+
+	height: 100px;
+	background-image: url(./../images/icon_5.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.majorTourism > .maJorIcon > li:nth-child(6) {
+	display: block;
+	height: 100px;
+	background-image: url(./../images/icon-6.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* footer */
+footer {
+	position: relative;
+	display: block;
+	width: 1600px;
+	margin: 0 auto;
+	height: 105px;
+
+	background-color: #333d49;
+}
+footer > address {
+	padding-top: 6px;
+	height: 30px;
+	line-height: 105px;
+	left: 230px;
+	position: absolute;
+	color: white;
+}
+footer > .logo2 {
+	position: absolute;
+	display: block;
+	left: 20px;
+	width: 206px;
+	height: 100px;
+	margin-top: 5px;
+
+	background-image: url(./../images/강릉시남색로고.png);
+}
+footer > .logo2:before {
+	display: block;
+	width: 220px;
+	margin-top: 2px;
+	margin-left: 1350px;
+	height: 80px;
+	background-image: url(./../images/강릉시소나무로고_가로2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: "";
+}
